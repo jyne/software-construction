@@ -1,0 +1,4 @@
+source_dir: ./
+component_depth: 2
+languages:
+- java
