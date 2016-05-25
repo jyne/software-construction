@@ -1,5 +1,6 @@
 exclude:
 - /source/src/ql/antlr/.*
+- /source/unitTests/.*
 source_dir: ./
 component_depth: 4
 languages:
