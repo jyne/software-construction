@@ -3,7 +3,6 @@ package ql.issue;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import ql.ast.value.Value;
 import ql.gui.DrawableElement;
 
 public abstract class Issue implements DrawableElement{
@@ -21,8 +20,8 @@ public abstract class Issue implements DrawableElement{
 		return jPanel;
 	}
 
-	public void updateValueLabel(Value newValue) {
-		errorMessage = newValue.toString();
+	public void updateValueLabel(String newValue) {
+		errorMessage = newValue;
 	}
 	
 	public abstract boolean isProblem();
